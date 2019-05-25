@@ -1,7 +1,7 @@
 <!-- -->
 <launch>
-  <arg name="network_definition_file" default="~/apollo/modules/perception/production/data/perception/lidar/models/cnnseg/velodyne16/deploy.prototxt" />
-  <arg name="pretrained_model_file" default="~/apollo/modules/perception/production/data/perception/lidar/models/cnnseg/velodyne16/deploy.caffemodel" />
+  <arg name="network_definition_file" default="/home/autoware/apollo/modules/perception/production/data/perception/lidar/models/cnnseg/velodyne16/deploy.prototxt" />
+  <arg name="pretrained_model_file" default="/home/autoware/apollo/modules/perception/production/data/perception/lidar/models/cnnseg/velodyne16/deploy.caffemodel" />
   <arg name="points_src" default="/front_right/points_raw" />
   <arg name="score_threshold" default="0.6" />
   <arg name="use_gpu" default="true" />
